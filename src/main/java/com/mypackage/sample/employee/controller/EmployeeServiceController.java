@@ -13,7 +13,7 @@ import com.mypackage.sample.employee.beans.Employee;
 @RestController
 public class EmployeeServiceController {
 	private static final Map<Integer, Employee> employeeData = new HashMap<Integer, Employee>() {
-		private static final long serialVersionID = 3970206781360313502L;
+		private static final long serialVersionID = -3970206781360313502L;
 		{
 			put(111, new Employee(111, "Employee1"));
 			put(222, new Employee(222, "Employee2"));
